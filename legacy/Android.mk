@@ -47,7 +47,7 @@ LOCAL_SHARED_LIBRARIES := \
 
 LOCAL_SRC_FILES += AudioHardware.cpp
 
-LOCAL_CFLAGS += -fno-short-enums -Wno-error
+LOCAL_CFLAGS += -fno-short-enums
 
 #ifeq ($(BOARD_HAVE_BLUETOOTH),true)
 #  LOCAL_SHARED_LIBRARIES += audio.a2dp.default
