@@ -1772,6 +1772,13 @@ status_t AudioHardware::AudioStreamOutMSM72xx::getRenderPosition(uint32_t *dspFr
     return INVALID_OPERATION;
 }
 
+
+status_t AudioHardware::AudioStreamOutMSM72xx::getPresentationPosition(uint64_t *frames, struct timespec *timestamp)
+{
+    //TODO: enable when supported by driver
+    return INVALID_OPERATION;
+}
+
 // ----------------------------------------------------------------------------
 
 AudioHardware::AudioStreamInMSM72xx::AudioStreamInMSM72xx() :
